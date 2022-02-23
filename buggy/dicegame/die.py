@@ -16,6 +16,7 @@ class Die:
 
     def roll(self):
         self.value = int(random.random() * 6 + 1)
+        value=self.value
 
     def show(self):
         if self.value == 1:
